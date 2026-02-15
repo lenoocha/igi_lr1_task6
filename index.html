@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мария Вебова | Веб-дизайнер</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Шапка -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="logo">MV</a>
+            <ul class="nav-menu">
+                <li><a href="#about">Обо мне</a></li>
+                <li><a href="#portfolio">Портфолио</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Главный экран -->
+        <section class="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Привет! Я Мария,<br>
+                        <span class="gradient-text">веб-дизайнер</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Создаю современные и удобные сайты, которые помогают бизнесу расти. 
+                        В работе сочетаю эстетику и пользовательский опыт.
+                    </p>
+                    <a href="#contacts" class="btn btn-primary">Обсудить проект</a>
+                </div>
+                <div class="hero-image">
+                    <div class="photo-placeholder">
+                        <!-- Здесь будет фото, пока просто иконка -->
+                        <span class="photo-icon">?????</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Обо мне -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">Обо мне</h2>
+                <div class="about-content">
+                    <div class="about-card">
+                        <div class="card-icon">??</div>
+                        <h3>Подход к работе</h3>
+                        <p>Изучаю ваш бизнес и целевую аудиторию, чтобы создать дизайн, который будет работать на вас 24/7.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon">??</div>
+                        <h3>Опыт</h3>
+                        <p>Более 5 лет в веб-дизайне. За плечами 50+ успешных проектов для малого и среднего бизнеса.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon">?</div>
+                        <h3>Инструменты</h3>
+                        <p>Figma, Adobe Creative Suite, Tilda. Слежу за трендами и постоянно учусь новому.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Портфолио -->
+        <section id="portfolio" class="portfolio">
+            <div class="container">
+                <h2 class="section-title">Последние работы</h2>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">
+                        <div class="portfolio-img">
+                            <span class="portfolio-icon">??</span>
+                        </div>
+                        <h3>Бизнес-центр "Плаза"</h3>
+                        <p>Многостраничный сайт с каталогом помещений</p>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-img">
+                            <span class="portfolio-icon">??</span>
+                        </div>
+                        <h3>Магазин "Зеленая гостиная"</h3>
+                        <p>Интернет-магазин растений с удобной корзиной</p>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-img">
+                            <span class="portfolio-icon">??</span>
+                        </div>
+                        <h3>Фотограф Анна Смирнова</h3>
+                        <p>Сайт-портфолио с индивидуальным стилем</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Контакты -->
+        <section id="contacts" class="contacts">
+            <div class="container">
+                <h2 class="section-title">Связаться со мной</h2>
+                <div class="contacts-content">
+                    <div class="contacts-info">
+                        <div class="contact-item">
+                            <span class="contact-icon">??</span>
+                            <a href="tel:+79991234567">+7 (999) 123-45-67</a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">??</span>
+                            <a href="mailto:maria@webova.ru">maria@webova.ru</a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">??</span>
+                            <span>Telegram: @maria_web</span>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="social-link" aria-label="Behance">B?</a>
+                            <a href="#" class="social-link" aria-label="Instagram">IG</a>
+                            <a href="#" class="social-link" aria-label="LinkedIn">IN</a>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <p class="form-note">Или напишите мне прямо сейчас:</p>
+                        <form action="#" method="POST">
+                            <input type="text" placeholder="Ваше имя" required>
+                            <input type="email" placeholder="Email" required>
+                            <textarea placeholder="Расскажите о проекте" rows="4" required></textarea>
+                            <button type="submit" class="btn btn-primary">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2024 Мария Вебова. Все права защищены</p>
+        </div>
+    </footer>
+</body>
+</html>
